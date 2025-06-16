@@ -22,7 +22,7 @@ Alterar o arquivo compose.yaml do desafio anterior e suportar múltiplos arquivo
 <h4>Desenvolvimento</h4>
 
 > ```console
-> $ consoledocker compose --env-file .dev.env up -d
+> $ docker compose --env-file .dev.env up -d
 > ```
 
 <h4>Hologação</h4>
