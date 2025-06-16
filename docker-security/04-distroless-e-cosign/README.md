@@ -1,21 +1,57 @@
+## 📝 Contexto do desafio
+
 Após a análise e otimização da imagem Docker do Kube News, a equipe identificou a necessidade de reduzir ainda mais a superfície de ataque da aplicação. Para isso, foi decidido que a aplicação será empacotada utilizando imagens Distroless da Chainguard, garantindo que apenas as bibliotecas essenciais estejam presentes na imagem final.
 
 Além disso, para aumentar a confiabilidade e rastreabilidade da imagem, será necessário utilizar o Cosign para assinar digitalmente a imagem antes de publicá-la. Isso garantirá que qualquer alteração ou comprometimento na imagem possa ser detectado, seguindo as melhores práticas de segurança na cadeia de suprimentos de software.
 
-Missão
-1 Refatorar o Dockerfile, garantindo que:
+---
+
+## 🏷️ Missão
+
+- [x] Refatorar o Dockerfile, garantindo que:
   A nova imagem utilize Distroless da Chainguard.
-  O ambiente seja o mais leve e seguro possível.
+   O ambiente seja o mais leve e seguro possível.
+- [x] Construir a nova imagem Docker Distroless e nomeá-la como kube-news-distroless.
+- [x] Publicar a imagem no Docker Hub.
+- [x] Assinar a imagem com o Cosign, garantindo a verificação da integridade da imagem.
+- [x] Salvar a assinatura gerada no arquivo cosign-signature.txt.
+- [x] Publicar a imagem no Docker Hub.
+- [x] Criar um README.md contendo:
+  - O nome e a URL da imagem no Docker Hub.
+  - Instruções sobre como verificar a assinatura da imagem.
 
-2 Construir a nova imagem Docker Distroless e nomeá-la como kube-news-distroless.
-3 Publicar a imagem no Docker Hub.
-4 Assinar a imagem com o Cosign, garantindo a verificação da integridade da imagem.
-5 Salvar a assinatura gerada no arquivo cosign-signature.txt.
-6 Criar um README.md contendo:
-  O nome e a URL da imagem no Docker Hub.
-  Instruções sobre como verificar a assinatura da imagem.
+---
 
+## 🚸 Orietanção para assinatura da imagem
 
-gerar o par de chaves -> cosign generate-key-pair
-assinar a imagem ->  cosign sign --key cosign.key docker.io/usario/repositorio:tag
-verificar a assinatura ->  cosign verify --key cosign.pub --key cosign.key docker.io/usario/repositorio:tag
+Geração de par de chaves com Cosign
+
+> ```
+> cosign generate-key-pair
+> ```
+
+Assinar a imagem
+
+> ```
+> cosign sign --key cosign.key docker.io/usario/repositorio:tag
+> ```
+
+Verificar a assinatura
+
+> ```
+> cosign verify --key cosign.pub --key cosign.key docker.io/usario/repositorio:tag
+> ```
+
+---
+
+## 📦️ Repositório
+
+Como etapa final, segue o repositório da imagem Docker, contendo todos os requisitos propostos: [kube-news-security](https://hub.docker.com/repository/docker/diego64/kube-news-security/general)
+
+---
+
+## 🚨 Segurança
+
+Este repositório tem como objetivo demonstrar a criação e configuração de containers e imagens Docker. Alguns arquivos foram incluídos apenas para fins ilustrativos. Jamais publique arquivos sensíveis em repositórios públicos, pois isso pode acarretar sérios riscos de segurança.
+
+---
