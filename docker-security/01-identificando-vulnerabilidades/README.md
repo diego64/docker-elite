@@ -6,7 +6,7 @@ A equipe de desenvolvimento precisa de um relatório detalhado no formato SARIF 
 
 ---
 
-## 🏷️ Missão
+## 💥 Missão
 
 - [x] Clonar o repositório do Kube News e garantir que todas as dependências estejam instaladas.
 - [x] Utilizar o Docker Scout para escanear as dependências do projeto e identificar vulnerabilidades.

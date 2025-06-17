@@ -10,7 +10,7 @@ Os desenvolvedores estão confusos sobre quando utilizar ENTRYPOINT e CMD, pois 
 
 ---
 
-## 🏷️ Missão
+## 📌 Missão
 
 1 - Criar um Dockerfile que:
 - [x] Instale todas as dependências do projeto
@@ -25,7 +25,7 @@ Os desenvolvedores estão confusos sobre quando utilizar ENTRYPOINT e CMD, pois 
 
 ---
 
-## ➕ Diferença entre ENTRYPOINT e CMD
+## 🧵 Diferença entre ENTRYPOINT e CMD
 
 - ENTRYPOINT fixa o algo a ser executado de maneira fixa 
 - CMD para os argumentos padrão (que podem ser sobrescritos na hora do docker run)

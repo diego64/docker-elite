@@ -47,7 +47,7 @@ Agora que as dependências foram corrigidas, a equipe precisa garantir que a ima
 
 ---
 
-## 🏷️ Missão
+## 💥 Missão
 
 - [x] Clonar o repositório do Kube News e revisar o Dockerfile atual.
 - [x] Gerar um relatório de vulnerabilidades da imagem com o Dockerfile atual utilizando o Docker Scout e salvar no arquivo before-fix-report.sarif.

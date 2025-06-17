@@ -4,20 +4,20 @@ Com a adoção crescente de containers, a Rota42 precisa separar seus ambientes 
 
 ---
 
-## 🏷️ Missão
+## 📌 Missão
 
 Alterar o arquivo compose.yaml do desafio anterior e suportar múltiplos arquivos de ambiente.
 
 ---
 
-## 📦️ Desafio
+## 💥 Desafio
 
 - [x] Alterar o arquivo compose para suportar o uso de variáveis de ambiente.
 - [x] Criar dois arquivos .env, um para cada ambiente: .dev.env (ambiente de desenvolvimento). | .homolog.env(ambiente de homologação).
 
 ---
 
-## 💬 Execução
+## 🏗️ Execução
 
 <h4>Desenvolvimento</h4>
 

@@ -8,7 +8,7 @@ A equipe de desenvolvimento precisa de um relatório detalhado em formato SARIF,
 
 ---
 
-## 🏷️ Missão
+## 💥 Missão
 
 - [x] Clonar o repositório do Fake Shop e garantir que todas as dependências estejam instaladas.
 - [x] Utilizar o Trivy para escanear as dependências da aplicação e identificar vulnerabilidades.

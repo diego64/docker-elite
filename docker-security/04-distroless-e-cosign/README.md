@@ -6,7 +6,7 @@ Além disso, para aumentar a confiabilidade e rastreabilidade da imagem, será n
 
 ---
 
-## 🏷️ Missão
+## 💥 Missão
 
 - [x] Refatorar o Dockerfile, garantindo que:
   A nova imagem utilize Distroless da Chainguard.
@@ -22,7 +22,7 @@ Além disso, para aumentar a confiabilidade e rastreabilidade da imagem, será n
 
 ---
 
-## 🚸 Orietanção para assinatura da imagem
+## 🔐 Orietanção para assinatura da imagem
 
 Geração de par de chaves com Cosign
 

@@ -8,13 +8,13 @@ Mas a equipe frequentemente reclama pelo fato de ter que instalar o PostgreSQL n
 
 ---
 
-## 🏷️ Missão
+## 📌 Missão
 
 Criar um ambiente completo com PostgreSQL, e uma ferramenta de administração de banco de dados.
 
 ---
 
-## 📦️ Desafio
+## 💥 Desafio
 
 - [x] Serviço db (PostgreSQL).
 - [x] Serviço db_explorer (pgAdmin).

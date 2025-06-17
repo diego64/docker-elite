@@ -4,7 +4,7 @@ O CTO precisa que a equipe tenha um contato inicial com Docker. Mas ninguém que
 
 ---
 
-## 📦️ Desafio
+## 💥 Desafio
 
 Crie um script run_containers.sh que:
 
@@ -14,7 +14,7 @@ Crie um script run_containers.sh que:
 - [x] Pare e remova o contêiner.
 - [x] Liste todos os containers.
 
-## 💬 Execução
+## 🏗️ Execução
 
 > ```console
 > $ chmod +x run_containers.sh

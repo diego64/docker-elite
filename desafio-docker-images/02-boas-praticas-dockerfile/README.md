@@ -4,13 +4,13 @@ A equipe de desenvolvimento da Rota42 está trabalhando na padronização do pro
 
 ---
 
-## 🏷️ Missão
+## 📌 Missão
 - [x] Refatorar o Dockerfile, aplicando boas práticas.
 - [x] Adicionar um arquivo de compose para facilitar a execução da aplicação e o build e push da imagem.
 
 ---
 
-## 💬 Execução
+## 🏗️ Execução
 
 > ```console
 > $ docker compose up -d

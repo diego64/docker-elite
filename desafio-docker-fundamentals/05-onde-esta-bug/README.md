@@ -4,20 +4,20 @@ Depois que os microsserviços começaram a rodar em containers, os desenvolvedor
 
 ---
 
-## 🏷️ Missão
+## 📌 Missão
 
 Criar um ambiente completo com PostgreSQL, e uma ferramenta de administração de banco de dados.
 
 ---
 
-## 📦️ Desafio
+## 💥 Desafio
 
 - [x] Analisar o Docker Compose da aplicação e resolver o problema.
 - [x] Listar os logs.
 
 ---
 
-## 📌 Arquivo para ser analisado
+## 🔍️ Arquivo para ser analisado
 
 > ```console
 > services:

@@ -4,13 +4,13 @@ Agora que os desenvolvedores começaram a usar containers, um novo problema surg
 
 ---
 
-## 🏷️ Missão
+## 📌 Missão
 
 Criar um volume para armazenar os logs do Nginx de forma persistente.
 
 ---
 
-## 📦️ Desafio
+## 💥 Desafio
 
 Crie um script nginx_volume_container.sh que:
 
@@ -20,7 +20,7 @@ Crie um script nginx_volume_container.sh que:
 - [x] Parar e remover o contêiner.
 - [x] Criar um novo contêiner e validar que os logs antigos ainda existem.
 
-## 💬 Execução
+## 🏗️ Execução
 
 > ```console
 > $ chmod +x nginx_volume_container.sh

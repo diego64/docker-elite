@@ -4,7 +4,7 @@ A Rota42 possui uma página institucional e atualmente, essa página é hospedad
 
 ---
 
-## 🏷️ Missão
+## 📌 Missão
 
 1 - Criar um Dockerfile que:
 - [x] Copie o conteúdo da página institucional para a imagem.
@@ -16,7 +16,7 @@ A Rota42 possui uma página institucional e atualmente, essa página é hospedad
 
 ---
 
-## 💬 Execução
+## 🏗️ Execução
 
 > ```
 > $ docker compose up -d

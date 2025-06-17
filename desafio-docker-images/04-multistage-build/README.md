@@ -8,7 +8,7 @@ Seu desafio é refatorar a criação da imagem utilizando Multistage Build, gara
 
 ---
 
-## 🏷️ Missão
+## 📌 Missão
 
 1 - Criar um Dockerfile otimizado utilizando Multistage Build, garantindo que
 - [x] A imagem seja a menor possível e garantindo todas as funcionalidades

@@ -45,7 +45,7 @@ E o arquivo requirements.txt atualizado, garantindo que todas as dependências e
 
 ---
 
-## 🏷️ Missão
+## 💥 Missão
 
 - [x] Clonar o repositório do Fake Shop e revisar o Dockerfile atual.
 - [x] Gerar um relatório de vulnerabilidades da imagem atual utilizando o Trivy e salvar no arquivo before-fix-report.sarif.

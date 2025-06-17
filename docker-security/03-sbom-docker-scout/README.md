@@ -8,7 +8,7 @@ O SBOM será gerado utilizando o Docker Scout, que permite a análise detalhada 
 
 ---
 
-## 🏷️ Missão
+## 💥 Missão
 
 - [x] Utilizar o Docker Scout para gerar um SBOM detalhado da imagem Docker do Kube News.
 - [x] Exportar o relatório no formato JSON para facilitar a integração com ferramentas de análise de segurança.
